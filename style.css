@@ -74,12 +74,18 @@ input:focus {
 \*------------------------------------*/
 
 /* wrapper */
-.wrapper {
-	max-width:1280px;
-	width:95%;
+#page-wrap {
+	width:100%;
 	margin:0 auto;
 	position:relative;
 }
+
+#page-content{
+	max-width:1200px;
+	margin:0 auto;
+}
+
+
 /* header */
 .header {
 
@@ -89,6 +95,7 @@ input:focus {
 
 }
 .logo-img {
+	width:100%
 
 }
 /* nav */
@@ -101,7 +108,22 @@ input:focus {
 }
 /* footer */
 .footer {
+	border-top: 1px solid #e5e5e5;
+}
 
+
+/*------------------------------------*\
+    NAV
+\*------------------------------------*/
+
+.menu ul{
+	padding: 0;
+	list-style: none;
+	display:flex;
+}
+
+.menu ul li{
+	
 }
 
 /*------------------------------------*\
